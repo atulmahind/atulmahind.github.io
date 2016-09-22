@@ -12,7 +12,7 @@ A farmer had only one horse. One day, his horse ran away.
 
 All the neighbors came by saying, “I’m so sorry. This is such bad news. You must be so upset.” The man just said, “We’ll see.”
 
-A few days later, his horse came back with twenty wild horses. The man and his son corraled all 21 horses.
+A few days later, his horse came back with twenty wild horses. The man and his son corralled all 21 horses.
 
 All the neighbors came by saying, “Congratulations! This is such good news. You must be so happy!” The man just said, “We’ll see.”
 
