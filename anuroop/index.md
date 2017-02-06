@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title:
+title: ...
 categories:
 tags: []
 comments: []
