@@ -11,12 +11,4 @@ comments: []
 
 मी प्रचंड ऍडव्हेंचरस, ब्रेव्ह आणि क्रिएटिव्ह माणूस आहे. न घाबरता, स्वतः केलेला स्वयंपाक मी खाऊ शकतो. स्वतःची सायकल, स्वतः चालवत कंपनीमधे जातो आणि वीकांती नदीकिनारी रपेट मारून येतो; अंगात जर त्राण शिल्लक राहिले तर. 
 
-BTW, I'm currently going through an existential crisis. So, if you believe that you have a beautiful spacetime continuum, will you please fold it against me? Because, then we can do something fun - we can project our fears of the unknown onto each other! 
-
-What say you...  in or out? 
-
-Or whatever, that works too. 
-
-(-_Q) 
-
-Not! Terrible!
+अपेक्षा म्हणजे - मुलगी हसरी असावी, हसत बसणारी नको. बोलकी असावी, बडबडणारी नको. समाधानी असावी, लोळत पडणारी नको. लिस्ट तशी मोठी आहे, पण तिला तितकासा अर्थ नाही. तडजोड करावीच लागणार आहे. ती जर दोन्ही बाजूने झाली तर आयुष्य थोडं सोपं होईल.
