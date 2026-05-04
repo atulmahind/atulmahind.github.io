@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "reset";
-@import "config";
+@use "reset";
+@use "config" as *;
 
 body {
 	color: $color-black;
