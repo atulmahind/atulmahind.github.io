@@ -26,7 +26,7 @@ href="https://fonts.googleapis.com/earlyaccess/notosansdevanagariui.css">
 
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper{% if page.wide_gallery %} wrapper--gallery{% endif %}">
         <header class="header">
             <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
             <nav aria-label="Main navigation">
