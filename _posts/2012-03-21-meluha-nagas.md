@@ -32,7 +32,7 @@ The Immortals of Meluha आमिष त्रिपाठीचं पहिल
 
 The story of Shiva. The simple man whose Karma recast him as our Mahadev. The God of the Gods.
 
-<a href="http://www.mahind.in/wp-content/uploads/2012/03/meluha.jpg"><img src="http://www.mahind.in/wp-content/uploads/2012/03/meluha-300x167.jpg" alt="meluha" width="300" height="167" class="alignleft size-medium wp-image-235" /></a>
+<img src="../assets/img/shiva-triology/meluha.jpg" alt="" width="" height="" class="aligncenter" />
 
 शिवा. कैलास पर्वताच्या पायथ्याशी मान सरोवराच्या किनारी राहणाऱ्या एका जमातीचा म्होरक्या. अंगभूत आणि कमावलेल्या कौशल्यावर त्याच्या टोळीचे नेतृत्व करत असतो. त्यांचं संरक्षण करत असतो. राजा दक्ष, मेलुहाचा सम्राट याच्या बोलावण्यानुसार शिवा आधुनिक, प्रगत अशा सूर्यवंशी साम्राज्यात येतो आणि इथे कथा वेग घेते. पण मला कथा सांगायची नाहीये. थोडं विश्लेषण करायचंय.
 
@@ -47,7 +47,7 @@ The story of Shiva. The simple man whose Karma recast him as our Mahadev. The Go
 प्रोब्लेम असा होतो - एकतर ही कथा प्रचंड आवडते आणि त्यामुळे ह्या गोष्टी खटकतात. अगदी अक्षम्य चुका वाटतात. सूर्यवंशी, चंद्रवंशी, त्यांचं साम्राज्य, त्यांच्या समाजरचना, वेगळे मत प्रवाह, त्यांना असणारे मनु, रुद्र, राम यांचे संदर्भ, त्यांना त्रास(?) देणारे नागा लोक, त्यांचा विचित्रपणा, मग त्यांची संस्कृती यामध्ये वाचक गुरफटून जातो. सुरुवातीच्या अर्ध्या भागात पात्रांची, समाजाची ओळख होते आणि नंतर खरी मजा सुरु होते. शिवाचा नीलकंठ ते महादेव पर्यंतचा प्रवास, त्याला मदत करणारे वासुदेव, मग छुपे हल्ले, द्वेष, त्याची परिणीती युद्धात मग त्याचे परिणाम हे सारे कळून घेत असतो नसतो तोच पुस्तक संपतं.<br />
 हर एक है महादेव! हर हर महादेव!
 
-<a href="http://www.mahind.in/wp-content/uploads/2012/03/secret_of_the_nagas.jpg"><img src="http://www.mahind.in/wp-content/uploads/2012/03/secret_of_the_nagas-300x206.jpg" alt="secret_of_the_nagas" width="300" height="206" class="alignright size-medium wp-image-236" /></a>
+<img src="../assets/img/shiva-triology/nagas.jpg" alt="" width="" height="360" class="aligncenter" />
 
 The Secret Of The Nagas हातात पडेपर्यंत मात्रं फार त्रास होतो. कधी एकदा वाचतोय असं होऊन जातं. पहिल्या भागापेक्षा हा दुसरा भाग वेगवान आहे आणि यात सलगता जाणवते. तसंच, वर सांगितलेल्या सर्व उणीवा (जवळ जवळ) पूर्णपणे भरून काढल्या आहेत. लेखकाने बरीच मेहेनत घेतल्याचं लक्षात येतं. त्याची स्वतःची विकसित झालेली शैली दिसून येते. या भागात पात्रांची संख्या दुपटीने वाढते पण लेखकाने त्यांची भट्टी मस्त जमवली आहे.
 
