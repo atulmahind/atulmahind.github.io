@@ -2,22 +2,20 @@
 layout: default
 ---
 
-<div class="header">
-    <h1>{{ site.name }}</h1>
-    <ul>
-        {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-<div class="blog">
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<section class="photography" aria-labelledby="photography-title">
+    <h2 id="photography-title"></h2>
+    <div class="photography__gallery">
+        <a href="{{ '/assets/img/fine-art/1.jpg' | relative_url }}">
+            <img src="{{ '/assets/img/fine-art/1.jpg' | relative_url }}" alt="Blurred figures walking through a warmly lit, arched pedestrian tunnel" width="1110" height="746">
+        </a>
+        <a href="{{ '/assets/img/fine-art/2.jpg' | relative_url }}">
+            <img src="{{ '/assets/img/fine-art/2.jpg' | relative_url }}" alt="Green fields and scattered trees beneath a wooded hill and a pastel sky" width="1110" height="746" loading="lazy" decoding="async">
+        </a>
+        <a href="{{ '/assets/img/fine-art/3.jpg' | relative_url }}">
+            <img src="{{ '/assets/img/fine-art/3.jpg' | relative_url }}" alt="A white swan floating near moss-covered rocks on a calm shoreline" width="1110" height="746" loading="lazy" decoding="async">
+        </a>
+        <a href="{{ '/assets/img/fine-art/4.jpg' | relative_url }}">
+            <img src="{{ '/assets/img/fine-art/4.jpg' | relative_url }}" alt="Wedding dresses in a shop window layered with reflections of a street clock and buildings" width="1110" height="746" loading="lazy" decoding="async">
+        </a>
+    </div>
+</section>
