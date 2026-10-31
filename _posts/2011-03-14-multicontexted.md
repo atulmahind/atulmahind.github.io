@@ -14,14 +14,6 @@ comments:
   date: '2011-03-17 17:03:59 +0100'
   date_gmt: '2011-03-17 17:03:59 +0100'
   content: कैच्याकै :)
-- id: 67
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-03-17 18:49:38 +0100'
-  date_gmt: '2011-03-17 18:49:38 +0100'
-  content: "@सुहास : :) वाटलं म्हणून लिहिलं. कोणी कोमेंटेल असं वाटलं नव्हतं.<br />अगदी
-    काहीतरीच लिहिलं आहे!"
 ---
 The synchronized threads in pool...
 

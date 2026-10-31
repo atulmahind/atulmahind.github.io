@@ -22,21 +22,7 @@ comments:
   author_url: http://www.blogger.com/profile/07983061687701245842
   date: '2011-02-15 04:59:27 +0100'
   date_gmt: '2011-02-15 04:59:27 +0100'
-  content: सब्र करो बेटा! सब्र का फळ मिठा हो<br />ता है!
-- id: 82
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-15 05:17:54 +0100'
-  date_gmt: '2011-02-15 05:17:54 +0100'
-  content: "@शिरीष : धन्यवाद!"
-- id: 83
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-15 05:19:03 +0100'
-  date_gmt: '2011-02-15 05:19:03 +0100'
-  content: "@विश्वकुमार : श्रद्धा और सबुरी!"
+  content: सब्र करो बेटा! सब्र का फळ मिठा होता है!
 - id: 84
   author: Anand Deshpande
   author_email: ''
@@ -44,13 +30,6 @@ comments:
   date: '2011-02-15 11:20:14 +0100'
   date_gmt: '2011-02-15 11:20:14 +0100'
   content: mast re mitra...<br />atishay sundar..
-- id: 85
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-15 18:43:19 +0100'
-  date_gmt: '2011-02-15 18:43:19 +0100'
-  content: "@आनंद : धन्यवाद!"
 - id: 86
   author: निरंजन
   author_email: ''
@@ -66,21 +45,6 @@ comments:
   date_gmt: '2011-02-23 19:01:43 +0100'
   content: मस्त झालाय लेख... आज तुमचा हा लेख ईमेल ने आला होता. दुसर्‍या एका ब्लॉगवर
     प्रकाशित झालाय हा, काळजी घ्या<br />हा घ्या दुवा - <br /><br />http://mandarbansod.blogspot.com/2011/02/blog-post.html
-- id: 88
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-25 10:18:09 +0100'
-  date_gmt: '2011-02-25 10:18:09 +0100'
-  content: धन्यवाद सुहास!<br />असेही प्रकार होतात वाटतं इथे. मी ही नवीनच आहे Blogger
-    वरती. <br />असे नाठाळ भेटायचेच... पण जरा समोर भेटू द्या, माथी काठीच हाणतो. :)
-- id: 89
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-25 10:46:41 +0100'
-  date_gmt: '2011-02-25 10:46:41 +0100'
-  content: "@निरंजन : Thanks man!"
 - id: 90
   author: abhi
   author_email: ''
@@ -88,13 +52,6 @@ comments:
   date: '2011-02-27 15:00:46 +0100'
   date_gmt: '2011-02-27 15:00:46 +0100'
   content: Bhari lekh ahe mitra !!! awadla...nahi bhavla....
-- id: 91
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-02-27 19:48:57 +0100'
-  date_gmt: '2011-02-27 19:48:57 +0100'
-  content: "@अभी : hearty thanks!"
 - id: 92
   author: Anup
   author_email: ''
@@ -102,13 +59,6 @@ comments:
   date: '2011-03-14 14:41:28 +0100'
   date_gmt: '2011-03-14 14:41:28 +0100'
   content: bhari...ek number...evadha bhari lihato mahit navta..
-- id: 93
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-03-16 08:55:51 +0100'
-  date_gmt: '2011-03-16 08:55:51 +0100'
-  content: "@अनुप : धन्यवाद! तुझं स्वागत आहे."
 ---
 'तो' आणि 'ती'
 

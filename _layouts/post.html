@@ -15,4 +15,30 @@ layout: default
     <div class="post__content">
         {{ content }}
     </div>
+    {% if page.comments.size > 0 %}
+    <section class="comments" aria-labelledby="comments-title">
+        <h2 id="comments-title">Comments ({{ page.comments.size }})</h2>
+        <ol class="comments__list">
+            {% for comment in page.comments %}
+            <li class="comments__item" id="comment-{{ comment.id | default: forloop.index | escape }}">
+                <article>
+                    <header class="comments__header">
+                        {% assign author_url_prefix = comment.author_url | slice: 0, 8 %}
+                        {% assign author_url_http_prefix = comment.author_url | slice: 0, 7 %}
+                        {% if author_url_prefix == 'https://' or author_url_http_prefix == 'http://' %}
+                        <a class="comments__author" href="{{ comment.author_url | escape }}" rel="nofollow ugc">{{ comment.author | default: 'Anonymous' | escape }}</a>
+                        {% else %}
+                        <span class="comments__author">{{ comment.author | default: 'Anonymous' | escape }}</span>
+                        {% endif %}
+                        {% if comment.date %}
+                        <time datetime="{{ comment.date | date_to_xmlschema }}">{{ comment.date | date: '%B %-d, %Y' }}</time>
+                        {% endif %}
+                    </header>
+                    <div class="comments__content">{{ comment.content | markdownify }}</div>
+                </article>
+            </li>
+            {% endfor %}
+        </ol>
+    </section>
+    {% endif %}
 </div>

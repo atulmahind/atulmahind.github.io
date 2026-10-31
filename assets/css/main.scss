@@ -249,6 +249,40 @@ ul {
 	}
 }
 
+.comments {
+	margin-top: 40px;
+	padding-top: 25px;
+	border-top: 1px solid $color-grey;
+	h2 {
+		font-size: 1.4em;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	&__list {
+		list-style: none;
+	}
+	&__item {
+		padding: 20px 0;
+		border-bottom: 1px solid $color-grey;
+	}
+	&__header {
+		margin-bottom: 10px;
+		time {
+			display: block;
+			font-size: 0.9em;
+		}
+	}
+	&__author {
+		font-weight: 700;
+	}
+	&__content {
+		overflow-wrap: anywhere;
+		p + p {
+			margin-top: 10px;
+		}
+	}
+}
+
 .about {
 	&__title {
 		font-size: 1.6em;

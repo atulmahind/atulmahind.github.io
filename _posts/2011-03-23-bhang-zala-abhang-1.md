@@ -15,13 +15,6 @@ comments:
   date: '2011-03-25 19:08:50 +0100'
   date_gmt: '2011-03-25 19:08:50 +0100'
   content: Nice
-- id: 63
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-03-25 19:11:09 +0100'
-  date_gmt: '2011-03-25 19:11:09 +0100'
-  content: धन्यवाद जावेद! ब्लॉगवर स्वागत तुझं...
 - id: 64
   author: krunal varshikar
   author_email: ''

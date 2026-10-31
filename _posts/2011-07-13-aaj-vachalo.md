@@ -15,14 +15,6 @@ comments:
   date: '2011-07-13 19:00:40 +0200'
   date_gmt: '2011-07-13 19:00:40 +0200'
   content: सबको मिलेगा..बराबर मिलेगा :( :(
-- id: 56
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2011-07-13 19:09:24 +0200'
-  date_gmt: '2011-07-13 19:09:24 +0200'
-  content: '"अरे काय..नेहमीचचं. सवय आहे. आज वाचलो... बस्स!!" तुझी ही कमेंट वाचून पुरता
-    हेलावलो.'
 - id: 57
   author: davbindu
   author_email: ''

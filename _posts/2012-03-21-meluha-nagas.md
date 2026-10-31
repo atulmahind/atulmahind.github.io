@@ -17,13 +17,6 @@ comments:
   date: '2012-03-29 11:07:27 +0200'
   date_gmt: '2012-03-29 05:37:27 +0200'
   content: Mast re ...  mhanunach 3 pustak year end parayant yeil
-- id: 102
-  author: atma
-  author_email: ''
-  author_url: http://www.blogger.com/profile/05839712664884389527
-  date: '2012-03-29 14:03:51 +0200'
-  date_gmt: '2012-03-29 08:33:51 +0200'
-  content: यप्प
 ---
 हे पुस्तक बाजारात येऊन तसा बराच अवधी झालाय. मित्राने आग्रह केला म्हणून गेल्याच महिन्यात वाचायला घेतलं. तेंव्हा असं कळलं की दुसरा भाग देखील प्रकाशित झाला आहे. लगोलग तोही वाचून मोकळा झालो. Shiva trilogy मधील दोन पुस्तकं आत्तापर्यंत लिहिली गेली आहेत. The Immortals of Meluha आणि The Secret Of The Nagas. तिसरं पुस्तक The Oath Of The Vayuputras या वर्षाच्या शेवटी येईल अशी अपेक्षा आहे.
 
