@@ -4,6 +4,27 @@
 @import "reset";
 @import "config";
 
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+img, video, iframe {
+	max-width: 100%;
+}
+
+img, video {
+	height: auto;
+}
+
+a:focus-visible {
+	outline: 2px solid $color-link;
+	outline-offset: 4px;
+}
+
 body {
 	color: $color-black;
 	background: $color-white;
@@ -49,7 +70,7 @@ ul {
 
 
 .wrapper {
-	max-width: 600px;
+	max-width: 660px;
 	margin: auto;
 	padding: 60px 30px 60px 30px;
 	@media screen and (max-width: $br) {
@@ -303,5 +324,112 @@ ul {
 			line-height: 150%;
 			margin-bottom: 10px;
 		}
+	}
+}
+
+// Keep long URLs and embedded content within the reading column.
+main {
+	min-width: 0;
+	overflow-wrap: anywhere;
+}
+
+.post__content, .about__content, .comments__content {
+	pre {
+		max-width: 100%;
+		overflow-x: auto;
+		overflow-wrap: normal;
+	}
+
+	table {
+		display: block;
+		max-width: 100%;
+		overflow-x: auto;
+	}
+}
+
+@media screen and (max-width: $br) {
+	.wrapper {
+		padding: 24px 20px 40px;
+	}
+
+	.header {
+		padding-bottom: 28px;
+
+		h1 {
+			font-size: 1.75em;
+			line-height: 1.5;
+		}
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0 8px;
+			margin: 12px -8px 0;
+
+			li {
+				display: block;
+				padding: 0;
+			}
+		}
+
+		nav a {
+			display: flex;
+			align-items: center;
+			min-height: 44px;
+			padding: 8px;
+
+			&:hover {
+				padding-bottom: 8px;
+				border-bottom: 0;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.photography__gallery {
+		gap: 20px;
+	}
+
+	.blog {
+		li {
+			padding: 16px 0;
+			border-bottom: 1px solid $color-grey;
+		}
+
+		.date {
+			display: block;
+			font-size: 0.875em;
+			margin-bottom: 4px;
+		}
+
+		&__separator {
+			display: none;
+		}
+
+		a {
+			line-height: 1.7;
+		}
+	}
+
+	.post__title h1, .about__title {
+		line-height: 1.5;
+	}
+
+	.post__content {
+		padding-top: 24px;
+
+		p {
+			line-height: 1.75;
+		}
+
+		.highlight {
+			margin-left: 0;
+			margin-right: 0;
+			overflow-x: auto;
+		}
+	}
+
+	.about__content p {
+		line-height: 1.75;
 	}
 }
