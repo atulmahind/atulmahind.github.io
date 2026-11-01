@@ -28,8 +28,9 @@ a:focus-visible {
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Noto Sans Devanagari UI', sans-serif;
-	font-size: 100%;
+	font-family: 'Noto Serif', 'Noto Serif Devanagari', serif;
+	font-size: 18px;
+	line-height: 1.8;
 	font-weight: 400;
 }
 h1 {
@@ -37,7 +38,7 @@ h1 {
 }
 p {
 	font-size: 1em;
-	line-height: 150%;
+	line-height: 1.8;
 }
 a {
   color: $color-link;
@@ -84,6 +85,9 @@ ul {
 }
 
 .header {
+	font-family: 'Noto Sans Devanagari UI', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -140,6 +144,11 @@ ul {
 
 .blog {
 	padding-bottom: 30px;
+	.date {
+		font-size: 0.875em;
+		color: #666666;
+		font-style: normal;
+	}
 	h1 {
 		font-size: 1.4em;
 		margin-bottom: 5px;
@@ -181,8 +190,9 @@ ul {
 	}
 	&__date {
 		p {
-			font-size: 1em;
-			font-style: italic;
+			font-size: 0.875em;
+			color: #666666;
+			font-style: normal;
 		}
 	}
 	&__meta {
@@ -206,7 +216,7 @@ ul {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.8;
 			margin-bottom: 15px;
 		}
 		a {
@@ -325,7 +335,7 @@ ul {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.8;
 			margin-bottom: 10px;
 		}
 	}
@@ -423,7 +433,7 @@ main {
 		padding-top: 24px;
 
 		p {
-			line-height: 1.75;
+			line-height: 1.8;
 		}
 
 		.highlight {
@@ -434,6 +444,6 @@ main {
 	}
 
 	.about__content p {
-		line-height: 1.75;
+		line-height: 1.8;
 	}
 }
