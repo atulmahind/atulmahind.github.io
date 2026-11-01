@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page.title %}
-        <title>{{ page.title }}</title>
+    {% if page.layout == 'post' %}
+        <title>{{ page.title | escape }} | Atul Mahind</title>
+    {% elsif page.title %}
+        <title>{{ page.title | escape }}</title>
     {% else %}
         <title>{{ site.name }}</title>
     {% endif %}
