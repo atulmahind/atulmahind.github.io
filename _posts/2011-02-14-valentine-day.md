@@ -2,12 +2,12 @@
 layout: post
 status: publish
 published: true
-title: व्हॅलेण्टाइन डे आणि मी
+title: व्हॅलेन्टाइन डे आणि मी
 categories:
 - काथ्याकूट
 tags:
 - अस्वस्थता
-- व्हॅलेण्टाइन डे
+- व्हॅलेन्टाइन डे
 comments:
 - id: 80
   author: shirish
@@ -59,6 +59,7 @@ comments:
   date: '2011-03-14 14:41:28 +0100'
   date_gmt: '2011-03-14 14:41:28 +0100'
   content: bhari...ek number...evadha bhari lihato mahit navta..
+description: "शाळा, कॉलेज आणि नोकरीपर्यंत बदलत गेलेला व्हॅलेन्टाइन डे. प्रेमाची हुरहूर, अस्वस्थता आणि स्वतःवर प्रेम करायला शिकण्याचा प्रवास."
 ---
 'तो' आणि 'ती'
 

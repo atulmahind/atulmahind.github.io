@@ -17,6 +17,7 @@ comments:
   date: '2012-03-29 11:07:27 +0200'
   date_gmt: '2012-03-29 05:37:27 +0200'
   content: Mast re ...  mhanunach 3 pustak year end parayant yeil
+description: "आमिष त्रिपाठी यांच्या The Immortals of Meluha आणि The Secret of the Nagas या कादंबऱ्यांवर मराठीतून गप्पा. शिवा, पुराणकथा आणि बदलते दृष्टिकोन."
 ---
 हे पुस्तक बाजारात येऊन तसा बराच अवधी झालाय. मित्राने आग्रह केला म्हणून गेल्याच महिन्यात वाचायला घेतलं. तेंव्हा असं कळलं की दुसरा भाग देखील प्रकाशित झाला आहे. लगोलग तोही वाचून मोकळा झालो. Shiva trilogy मधील दोन पुस्तकं आत्तापर्यंत लिहिली गेली आहेत. The Immortals of Meluha आणि The Secret Of The Nagas. तिसरं पुस्तक The Oath Of The Vayuputras या वर्षाच्या शेवटी येईल अशी अपेक्षा आहे.
 

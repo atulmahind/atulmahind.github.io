@@ -6,6 +6,7 @@ title: एक गोष्ट
 categories: []
 tags: []
 comments: []
+description: "A farmer, a runaway horse, and a series of unexpected turns: a short story about judging good and bad fortune too soon."
 ---
 
 A farmer had only one horse. One day, his horse ran away.
