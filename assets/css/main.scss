@@ -29,7 +29,8 @@ body {
 	color: $color-black;
 	background: $color-white;
 	font-family: 'Noto Sans Devanagari UI', sans-serif;
-	font-size: 100%;
+	font-size: 18px;
+	line-height: 1.8;
 	font-weight: 400;
 }
 h1 {
@@ -37,7 +38,7 @@ h1 {
 }
 p {
 	font-size: 1em;
-	line-height: 150%;
+	line-height: 1.8;
 }
 a {
   color: $color-link;
@@ -79,11 +80,24 @@ ul {
 }
 
 
+.wrapper--gallery {
+	max-width: 960px;
+}
+
 .header {
+	font-family: 'Noto Sans Devanagari UI', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
 	padding-bottom: 50px;
+	&__name {
+		margin-top: 4px;
+		font-size: 0.875em;
+		line-height: 1.5;
+		color: $color-muted;
+	}
 	@media screen and (max-width: $br) {
 		display: block;
 	}
@@ -103,6 +117,36 @@ ul {
 			display: inline;
 			padding: 0;
 			padding-left: 5px;
+		}
+	}
+}
+
+.footer {
+	margin-top: 48px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: $color-muted;
+
+	nav {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		flex-wrap: wrap;
+	}
+
+	a, a:visited {
+		color: inherit;
+	}
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+
+		&:hover {
+			padding-bottom: 0;
+			border-bottom: 0;
+			text-decoration: underline;
 		}
 	}
 }
@@ -136,6 +180,11 @@ ul {
 
 .blog {
 	padding-bottom: 30px;
+	.date {
+		font-size: 0.875em;
+		color: $color-muted;
+		font-style: normal;
+	}
 	h1 {
 		font-size: 1.4em;
 		margin-bottom: 5px;
@@ -177,8 +226,9 @@ ul {
 	}
 	&__date {
 		p {
-			font-size: 1em;
-			font-style: italic;
+			font-size: 0.875em;
+			color: $color-muted;
+			font-style: normal;
 		}
 	}
 	&__meta {
@@ -202,7 +252,7 @@ ul {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.8;
 			margin-bottom: 15px;
 		}
 		a {
@@ -321,7 +371,7 @@ ul {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.8;
 			margin-bottom: 10px;
 		}
 	}
@@ -419,7 +469,7 @@ main {
 		padding-top: 24px;
 
 		p {
-			line-height: 1.75;
+			line-height: 1.8;
 		}
 
 		.highlight {
@@ -430,6 +480,6 @@ main {
 	}
 
 	.about__content p {
-		line-height: 1.75;
+		line-height: 1.8;
 	}
 }

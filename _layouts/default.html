@@ -6,29 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% if page.title %}
-        <title>{{ page.title }}</title>
+    {% if page.layout == 'post' %}
+        <title>{{ page.title | escape }} | Atul Mahind</title>
+    {% elsif page.title %}
+        <title>{{ page.title | escape }}</title>
     {% else %}
         <title>{{ site.name }}</title>
     {% endif %}
 
     <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
 
     {% if site.google_verification %}
         <meta name="google-site-verification" content="{{ site.google_verification }}">
     {% endif %}
 
     <link rel="icon" href="/assets/img/favicon.ico">
-    <link rel="stylesheet" 
-href="https://fonts.googleapis.com/earlyaccess/notosansdevanagariui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansdevanagariui.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 </head>
 
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper{% if page.wide_gallery %} wrapper--gallery{% endif %}">
         <header class="header">
-            <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+            <div class="header__identity">
+                <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+                <p class="header__name">Atul Mahind</p>
+            </div>
             <nav aria-label="Main navigation">
                 <ul>
                     {% for item in site.data.navigation %}
@@ -42,6 +47,13 @@ href="https://fonts.googleapis.com/earlyaccess/notosansdevanagariui.css">
         <main id="main-content">
             {{ content }}
         </main>
+        <footer class="footer">
+            <nav aria-label="Social profiles">
+                <a href="{{ site.github_url | escape }}">GitHub</a>
+                <span aria-hidden="true">·</span>
+                <a href="{{ site.instagram_url | escape }}">Instagram</a>
+            </nav>
+        </footer>
     </div>
 
 </body>
