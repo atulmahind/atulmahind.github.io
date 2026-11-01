@@ -14,7 +14,8 @@
         <title>{{ site.name }}</title>
     {% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+    {% assign meta_description = page.description | default: page.excerpt | default: site.description %}
+    <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
     <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
 
     {% if site.google_verification %}
