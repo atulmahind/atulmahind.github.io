@@ -1,5 +1,9 @@
 # Blog settings
 permalink: /:title
+url: https://mahind.in
+baseurl: ""
+plugins:
+  - jekyll-sitemap
 
 
 # My variables
