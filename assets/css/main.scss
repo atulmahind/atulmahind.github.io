@@ -121,6 +121,36 @@ ul {
 	}
 }
 
+.footer {
+	margin-top: 48px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: $color-muted;
+
+	nav {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		flex-wrap: wrap;
+	}
+
+	a, a:visited {
+		color: inherit;
+	}
+
+	a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+
+		&:hover {
+			padding-bottom: 0;
+			border-bottom: 0;
+			text-decoration: underline;
+		}
+	}
+}
+
 .photography {
 	h2 {
 		font-size: 1.4em;
