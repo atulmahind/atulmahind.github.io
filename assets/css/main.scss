@@ -28,7 +28,7 @@ a:focus-visible {
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Noto Serif', 'Noto Serif Devanagari', serif;
+	font-family: 'Noto Sans Devanagari UI', sans-serif;
 	font-size: 18px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -96,7 +96,7 @@ ul {
 		margin-top: 4px;
 		font-size: 0.875em;
 		line-height: 1.5;
-		color: #666666;
+		color: $color-muted;
 	}
 	@media screen and (max-width: $br) {
 		display: block;
@@ -152,7 +152,7 @@ ul {
 	padding-bottom: 30px;
 	.date {
 		font-size: 0.875em;
-		color: #666666;
+		color: $color-muted;
 		font-style: normal;
 	}
 	h1 {
@@ -197,7 +197,7 @@ ul {
 	&__date {
 		p {
 			font-size: 0.875em;
-			color: #666666;
+			color: $color-muted;
 			font-style: normal;
 		}
 	}
