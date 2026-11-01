@@ -92,6 +92,12 @@ ul {
 	justify-content: space-between;
 	align-items: baseline;
 	padding-bottom: 50px;
+	&__name {
+		margin-top: 4px;
+		font-size: 0.875em;
+		line-height: 1.5;
+		color: #666666;
+	}
 	@media screen and (max-width: $br) {
 		display: block;
 	}

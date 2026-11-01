@@ -28,7 +28,10 @@
 
     <div class="wrapper{% if page.wide_gallery %} wrapper--gallery{% endif %}">
         <header class="header">
-            <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+            <div class="header__identity">
+                <h1><a href="{{ '/' | relative_url }}">{{ site.name }}</a></h1>
+                <p class="header__name">Atul Mahind</p>
+            </div>
             <nav aria-label="Main navigation">
                 <ul>
                     {% for item in site.data.navigation %}
