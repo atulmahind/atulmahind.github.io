@@ -2,6 +2,7 @@
 permalink: /:title
 url: https://mahind.in
 baseurl: ""
+lang: mr
 plugins:
   - jekyll-sitemap
 

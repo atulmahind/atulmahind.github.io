@@ -87,3 +87,8 @@ with their license and source information.
 Add posts to `_posts/` as `YYYY-MM-DD-slug.md`, using `layout: post` and a
 `title` in YAML front matter. The blog archive lists them automatically.
 Standalone pages use `layout: page`. Navigation is in `_data/navigation.yml`.
+
+The document language defaults to Marathi (`lang: mr` in `_config.yml`). Set
+`lang: en` in a page or post's front matter when its main content is English;
+use `lang: mr` for an explicit Marathi override. The shared layout applies
+the page setting first, then the site default.

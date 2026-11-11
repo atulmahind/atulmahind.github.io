@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 status: publish
 published: true
 title: A Tribute to Discomfort

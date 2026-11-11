@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 status: publish
 published: true
 title: एक गोष्ट
