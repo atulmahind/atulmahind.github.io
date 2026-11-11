@@ -10,16 +10,28 @@ description: "Atul Mahind’s personal website: photography, Marathi writing, po
 <section class="photography" aria-label="Photographs">
     <div class="photography__gallery">
         <a href="{{ '/assets/img/fine-art/1.jpg' | relative_url }}">
-            <img src="{{ '/assets/img/fine-art/1.jpg' | relative_url }}" alt="Blurred figures walking through a warmly lit, arched pedestrian tunnel" width="1110" height="746">
+            <picture>
+                <source type="image/webp" srcset="{{ '/assets/img/fine-art/1-400.webp' | relative_url }} 400w, {{ '/assets/img/fine-art/1-800.webp' | relative_url }} 800w, {{ '/assets/img/fine-art/1-1110.webp' | relative_url }} 1110w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 960px) calc(100vw - 60px), 900px">
+                <img src="{{ '/assets/img/fine-art/1.jpg' | relative_url }}" alt="Blurred figures walking through a warmly lit, arched pedestrian tunnel" width="1110" height="746" fetchpriority="high">
+            </picture>
         </a>
         <a href="{{ '/assets/img/fine-art/2.jpg' | relative_url }}">
-            <img src="{{ '/assets/img/fine-art/2.jpg' | relative_url }}" alt="Green fields and scattered trees beneath a wooded hill and a pastel sky" width="1110" height="746" loading="lazy" decoding="async">
+            <picture>
+                <source type="image/webp" srcset="{{ '/assets/img/fine-art/2-400.webp' | relative_url }} 400w, {{ '/assets/img/fine-art/2-800.webp' | relative_url }} 800w, {{ '/assets/img/fine-art/2-1110.webp' | relative_url }} 1110w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 960px) calc(100vw - 60px), 900px">
+                <img src="{{ '/assets/img/fine-art/2.jpg' | relative_url }}" alt="Green fields and scattered trees beneath a wooded hill and a pastel sky" width="1110" height="746" loading="lazy" decoding="async">
+            </picture>
         </a>
         <a href="{{ '/assets/img/fine-art/3.jpg' | relative_url }}">
-            <img src="{{ '/assets/img/fine-art/3.jpg' | relative_url }}" alt="A white swan floating near moss-covered rocks on a calm shoreline" width="1110" height="746" loading="lazy" decoding="async">
+            <picture>
+                <source type="image/webp" srcset="{{ '/assets/img/fine-art/3-400.webp' | relative_url }} 400w, {{ '/assets/img/fine-art/3-800.webp' | relative_url }} 800w, {{ '/assets/img/fine-art/3-1110.webp' | relative_url }} 1110w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 960px) calc(100vw - 60px), 900px">
+                <img src="{{ '/assets/img/fine-art/3.jpg' | relative_url }}" alt="A white swan floating near moss-covered rocks on a calm shoreline" width="1110" height="746" loading="lazy" decoding="async">
+            </picture>
         </a>
         <a href="{{ '/assets/img/fine-art/4.jpg' | relative_url }}">
-            <img src="{{ '/assets/img/fine-art/4.jpg' | relative_url }}" alt="Wedding dresses in a shop window layered with reflections of a street clock and buildings" width="1110" height="746" loading="lazy" decoding="async">
+            <picture>
+                <source type="image/webp" srcset="{{ '/assets/img/fine-art/4-400.webp' | relative_url }} 400w, {{ '/assets/img/fine-art/4-800.webp' | relative_url }} 800w, {{ '/assets/img/fine-art/4-1110.webp' | relative_url }} 1110w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 960px) calc(100vw - 60px), 900px">
+                <img src="{{ '/assets/img/fine-art/4.jpg' | relative_url }}" alt="Wedding dresses in a shop window layered with reflections of a street clock and buildings" width="1110" height="746" loading="lazy" decoding="async">
+            </picture>
         </a>
     </div>
 </section>

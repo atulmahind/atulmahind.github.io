@@ -2,6 +2,7 @@
 permalink: /:title
 url: https://mahind.in
 baseurl: ""
+lang: mr
 plugins:
   - jekyll-sitemap
 
@@ -16,7 +17,7 @@ instagram_url: https://www.instagram.com/atulmahind/
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "scripts"]
 
 
 # Sass
