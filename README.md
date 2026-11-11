@@ -65,6 +65,25 @@ JEKYLL_ENV=production bundle exec jekyll build --baseurl ""
 
 ## Publishing content
 
+### Gallery images
+
+Homepage photographs use responsive WebP variants at 400, 800, and 1110 pixels
+wide, with the original JPEGs retained for fallback and full-size links.
+After replacing a JPEG in `assets/img/fine-art/`, regenerate the variants:
+
+```sh
+python3 -m venv /tmp/gallery-images
+/tmp/gallery-images/bin/pip install Pillow==13.0.0
+/tmp/gallery-images/bin/python scripts/optimize-gallery.py
+```
+
+Keep image dimensions and alternative text in `index.html` in sync with any
+replacement. Only the first photograph has high fetch priority; later images
+remain lazy-loaded. Fonts are hosted in `assets/fonts/noto-sans-devanagari/`
+with their license and source information.
+
+### Posts and pages
+
 Add posts to `_posts/` as `YYYY-MM-DD-slug.md`, using `layout: post` and a
 `title` in YAML front matter. The blog archive lists them automatically.
 Standalone pages use `layout: page`. Navigation is in `_data/navigation.yml`.

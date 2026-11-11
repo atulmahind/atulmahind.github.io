@@ -4,6 +4,22 @@
 @import "reset";
 @import "config";
 
+@font-face {
+	font-family: 'Noto Sans Devanagari';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/noto-sans-devanagari/regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Noto Sans Devanagari';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../fonts/noto-sans-devanagari/bold.woff2') format('woff2');
+}
+
 *, *::before, *::after {
 	box-sizing: border-box;
 }
@@ -28,7 +44,7 @@ a:focus-visible {
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Noto Sans Devanagari UI', sans-serif;
+	font-family: 'Noto Sans Devanagari', sans-serif;
 	font-size: 18px;
 	line-height: 1.8;
 	font-weight: 400;
@@ -85,7 +101,7 @@ ul {
 }
 
 .header {
-	font-family: 'Noto Sans Devanagari UI', sans-serif;
+	font-family: 'Noto Sans Devanagari', sans-serif;
 	font-size: 16px;
 	line-height: 1.4;
 	display: flex;
