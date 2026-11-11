@@ -170,6 +170,16 @@ ul {
 .home-intro {
 	max-width: 960px;
 	margin-bottom: 32px;
+
+	a {
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+
+		&:hover {
+			padding-bottom: 0;
+			border-bottom: 0;
+		}
+	}
 }
 
 .photography {
