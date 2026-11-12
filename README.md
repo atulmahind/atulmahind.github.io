@@ -2,6 +2,14 @@
 
 Personal website and blog of Atul Mahind: <https://mahind.in>.
 
+## Copyright and permissions
+
+Original writing, photographs, illustrations, and website code by Atul Mahind
+are all rights reserved. Reuse requires prior written permission except where
+permitted by applicable law. See [LICENSE.md](LICENSE.md) and the website's
+[Copyright and permissions](https://mahind.in/copyright/) page for details.
+Third-party materials retain their respective license terms.
+
 ## Deployment settings
 
 | Setting | Value |

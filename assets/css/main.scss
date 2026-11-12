@@ -138,10 +138,27 @@ ul {
 }
 
 .footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 0 24px;
 	margin-top: 48px;
 	font-size: 14px;
 	line-height: 1.5;
 	color: $color-muted;
+
+	&__copyright {
+		margin: 0 0 0 auto;
+		line-height: inherit;
+		text-align: right;
+
+		@media screen and (max-width: $br) {
+			flex-basis: 100%;
+			margin-left: 0;
+			text-align: left;
+		}
+	}
 
 	nav {
 		display: flex;

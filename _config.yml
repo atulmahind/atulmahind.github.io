@@ -17,7 +17,7 @@ instagram_url: https://www.instagram.com/atulmahind/
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE", "scripts"]
+exclude: ["README.md", "LICENSE", "LICENSE.md", "scripts"]
 
 
 # Sass
